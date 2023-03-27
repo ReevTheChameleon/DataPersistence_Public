@@ -1,0 +1,34 @@
+{
+    "name": "AlterAction",
+    "maps": [
+        {
+            "name": "Default",
+            "id": "54563bb8-02b9-4e62-8933-2bc230b52877",
+            "actions": [
+                {
+                    "name": "Alter",
+                    "type": "Button",
+                    "id": "64a62340-5169-4965-af7a-216d40b15bc6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "bea2c64a-5293-4fd3-b768-f204d0ae740a",
+                    "path": "<Keyboard>/ctrl",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Alter",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

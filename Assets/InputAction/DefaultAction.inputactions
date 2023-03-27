@@ -1,0 +1,176 @@
+{
+    "name": "DefaultAction",
+    "maps": [
+        {
+            "name": "Default",
+            "id": "df2b072f-d1ff-4228-8ef8-cb1733dc302e",
+            "actions": [
+                {
+                    "name": "MovePaddleKeyboard",
+                    "type": "Value",
+                    "id": "18cdf58b-5689-403a-bed0-eb57d0aee1ee",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "MovePaddleMouse",
+                    "type": "Value",
+                    "id": "bb8df1ef-0f11-4642-a795-59ea0a18267a",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "BallColorRed",
+                    "type": "Button",
+                    "id": "1b2d829e-d2aa-45ce-abf3-b510e2bb5737",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "BallColorGreen",
+                    "type": "Button",
+                    "id": "f742103d-4dca-4653-9225-a86423241ba4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "BallColorBlue",
+                    "type": "Button",
+                    "id": "bcc64b21-8f64-4c31-a8e9-d1cce7a155fd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "BallColorYellow",
+                    "type": "Button",
+                    "id": "97ab2ce6-ee02-4733-8a75-3d3ce4adf1c4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Pause",
+                    "type": "Button",
+                    "id": "a1bd9d18-9af8-48f3-88ae-cf548f0da035",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "38d5c432-de4a-40a5-b114-bcaf18fb4f22",
+                    "path": "<Pointer>/delta/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MovePaddleMouse",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ce84a1b3-38c0-4948-b2a5-9f5b3ace5ec8",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "BallColorRed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b1171a57-b424-4f94-877d-eefd62e71db7",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "BallColorGreen",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6356fc7f-b7a8-42f9-a1bb-1e8bbf630e8a",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "BallColorBlue",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "79cb0efe-e730-41d4-a95d-1054362aa7c8",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "BallColorYellow",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ff2e7a84-13d2-4897-9151-24b5a97d44f8",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "KeyboardArrow",
+                    "id": "1582abaf-e722-494f-9cbc-eb5aa07841cb",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MovePaddleKeyboard",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "9a9de694-1897-43da-9bee-54821bdba5d8",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MovePaddleKeyboard",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "3278db6c-f9b0-45d6-958a-98b98ee4bfbc",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MovePaddleKeyboard",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

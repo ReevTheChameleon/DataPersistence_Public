@@ -1,0 +1,13 @@
+TODO List:
+Note: This project uses UsefulScripts package v1.8.0
+Things that can be improved:
+1) Learn how to quit WebGL properly, because Application.Quit() seems to hang. Alternatives can be to call JavaScript to reload the page
+or make specific code for WebGL. Learning how usual WebGL or web games quit can also be beneficial.
+2) Combine sprites of "How to Play" section into sprite sheet. I have tried SpriteAtlas before, but Unity packs them into sheets with
+large unused space whatever the settings, or multiple small sheets which defeat the purpose.
+Because each sprite has power of 2 dimension, it shouldn't be this hard. Will study how to quickly do this ourselves or write code to automate
+the process.
+3) I have found out later that Rigidbody2D is not really the way to go for brick breaking game, and other people suggest using custom code
+to have full control of how the ball should react when collision occurs (In fact this also seems to be the case for ANY 2D games?).
+4) I should study how usual Unity's .gitignore is set up, because using default settings from GitHub Desktop includes .meta, .vsconfig, WebGL Build
+files outside Assets folder, ProjectSettings, etc., many of which I think is unnecessary (OK .meta may be necessary if working with other people?)
